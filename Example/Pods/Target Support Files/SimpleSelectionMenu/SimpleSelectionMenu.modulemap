@@ -1,0 +1,6 @@
+framework module SimpleSelectionMenu {
+  umbrella header "SimpleSelectionMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

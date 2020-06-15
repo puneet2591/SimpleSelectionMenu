@@ -1,0 +1,22 @@
+{
+  "name": "SimpleSelectionMenu",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleSelectionMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/puneetonly12@gmail.com/SimpleSelectionMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "puneetonly12@gmail.com": "puneetonly12@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/puneetonly12@gmail.com/SimpleSelectionMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleSelectionMenu/Classes/**/*"
+}

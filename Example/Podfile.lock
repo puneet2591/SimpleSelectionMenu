@@ -1,0 +1,16 @@
+PODS:
+  - SimpleSelectionMenu (0.1.0)
+
+DEPENDENCIES:
+  - SimpleSelectionMenu (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleSelectionMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleSelectionMenu: 4162a1ab41875f7512b46520c8f7d447e463d1e1
+
+PODFILE CHECKSUM: 772a80cb5434ed810499596da1f53951141c2c55
+
+COCOAPODS: 1.9.1
