@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1AAAE280F475D39C80D67C2504693327 /* Pods-SimpleSelectionMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C86C6225F78C9574C3B2B12C0229550 /* Pods-SimpleSelectionMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D454E912497879200C6F521 /* SimpleSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D454E902497879200C6F521 /* SimpleSelectionMenu.swift */; };
+		2D454E922497879200C6F521 /* SimpleSelectionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D454E902497879200C6F521 /* SimpleSelectionMenu.swift */; };
 		5A356E91FDE0007DB9B4AAA2098A0CF5 /* SimpleSelectionMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B65401E78A787D2828DDC833254C0 /* SimpleSelectionMenu-dummy.m */; };
 		7A05B29E0042F62EBC276EEC3D415600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		87C2AC20C00277953DAB807230CD6249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BDACE99233A1FDA450B68E2A629AC07D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154A82BE02BD1A5D26F64364C3B04DB1 /* ReplaceMe.swift */; };
 		C892EABD6BD9FF526EA3779890FD7AFC /* Pods-SimpleSelectionMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E6B75E50DD487B46E98002FEDBF13C /* Pods-SimpleSelectionMenu_Tests-dummy.m */; };
 		E8F2A4AF59D20C3E766F74E8D7FEA88B /* SimpleSelectionMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0230D4AB614C915BB4CA6CE6565BF7 /* SimpleSelectionMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -27,27 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09F381F7151499D5EA5CDD00FC63301B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0CE21F544324675D3D25A20B2D4B854E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		09F381F7151499D5EA5CDD00FC63301B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CE21F544324675D3D25A20B2D4B854E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1111F420ADAA78DE7D4FBE695B861411 /* Pods-SimpleSelectionMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSelectionMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		154A82BE02BD1A5D26F64364C3B04DB1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleSelectionMenu/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2D454E902497879200C6F521 /* SimpleSelectionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleSelectionMenu.swift; path = SimpleSelectionMenu/Classes/SimpleSelectionMenu.swift; sourceTree = "<group>"; };
 		31C9B5DAEC913B23BF61230D03B16C0A /* SimpleSelectionMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleSelectionMenu.release.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C2B65401E78A787D2828DDC833254C0 /* SimpleSelectionMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleSelectionMenu-dummy.m"; sourceTree = "<group>"; };
 		5C86C6225F78C9574C3B2B12C0229550 /* Pods-SimpleSelectionMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleSelectionMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		66744835EDBFF86E48113C489DF5655C /* Pods-SimpleSelectionMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleSelectionMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7818844D4DFD5B78971825646CC90086 /* SimpleSelectionMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleSelectionMenu.framework; path = SimpleSelectionMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7818844D4DFD5B78971825646CC90086 /* SimpleSelectionMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleSelectionMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		813948776FAC3DAF14C55895B0BA7AF8 /* SimpleSelectionMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleSelectionMenu-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9BFE353A1971850F6EB8728FAAE119D /* Pods-SimpleSelectionMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleSelectionMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B0BB0B46657AE18E443F163BFD2811AB /* SimpleSelectionMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleSelectionMenu.modulemap; sourceTree = "<group>"; };
 		B8E6B75E50DD487B46E98002FEDBF13C /* Pods-SimpleSelectionMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleSelectionMenu_Tests-dummy.m"; sourceTree = "<group>"; };
 		C7BE0E155447F12447DFF0FAEAEC7E9D /* SimpleSelectionMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleSelectionMenu.debug.xcconfig; sourceTree = "<group>"; };
 		CE0230D4AB614C915BB4CA6CE6565BF7 /* SimpleSelectionMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleSelectionMenu-umbrella.h"; sourceTree = "<group>"; };
-		CEBC6B47FACC3D2B6019FC6B33D0496D /* SimpleSelectionMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleSelectionMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEBC6B47FACC3D2B6019FC6B33D0496D /* SimpleSelectionMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleSelectionMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E1728271E3DD2EA34CD9B78F8C251AA8 /* Pods-SimpleSelectionMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleSelectionMenu_Tests-Info.plist"; sourceTree = "<group>"; };
 		E550EA3D025E46C40DE3CCE9729E61BD /* SimpleSelectionMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleSelectionMenu-prefix.pch"; sourceTree = "<group>"; };
-		EC375410D71F5F7E7A02B266C48360D5 /* Pods_SimpleSelectionMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleSelectionMenu_Tests.framework; path = "Pods-SimpleSelectionMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC375410D71F5F7E7A02B266C48360D5 /* Pods_SimpleSelectionMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSelectionMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED779E4BDB16C71568CB971B3406738E /* Pods-SimpleSelectionMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSelectionMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F160C8DF868D102218D71001466F59A7 /* Pods-SimpleSelectionMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleSelectionMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F866A7DCB8360E0199BC368FAE1BF662 /* Pods-SimpleSelectionMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleSelectionMenu_Tests.modulemap"; sourceTree = "<group>"; };
@@ -126,7 +127,7 @@
 		ACF7686D6DB9AF2FFFA97360176AC81A /* SimpleSelectionMenu */ = {
 			isa = PBXGroup;
 			children = (
-				154A82BE02BD1A5D26F64364C3B04DB1 /* ReplaceMe.swift */,
+				2D454E902497879200C6F521 /* SimpleSelectionMenu.swift */,
 				268B06568D8C018CDBEF8F97212F4BE8 /* Pod */,
 				603E92CBA0B6AC175C132FA5F08F2EA8 /* Support Files */,
 			);
@@ -245,6 +246,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6F08C5950C7BDBB123DFFB800C0E3C36 = {
+						LastSwiftMigration = 1130;
+					};
+					97E2D1C2FA3CA3C6D9A000DD07B3730A = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -288,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C892EABD6BD9FF526EA3779890FD7AFC /* Pods-SimpleSelectionMenu_Tests-dummy.m in Sources */,
+				2D454E912497879200C6F521 /* SimpleSelectionMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDACE99233A1FDA450B68E2A629AC07D /* ReplaceMe.swift in Sources */,
 				5A356E91FDE0007DB9B4AAA2098A0CF5 /* SimpleSelectionMenu-dummy.m in Sources */,
+				2D454E922497879200C6F521 /* SimpleSelectionMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +327,7 @@
 			baseConfigurationReference = ED779E4BDB16C71568CB971B3406738E /* Pods-SimpleSelectionMenu_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -339,6 +350,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -350,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31C9B5DAEC913B23BF61230D03B16C0A /* SimpleSelectionMenu.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -369,8 +383,9 @@
 				PRODUCT_NAME = SimpleSelectionMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -383,6 +398,7 @@
 			baseConfigurationReference = 1111F420ADAA78DE7D4FBE695B861411 /* Pods-SimpleSelectionMenu_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -405,6 +421,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -415,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7BE0E155447F12447DFF0FAEAEC7E9D /* SimpleSelectionMenu.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -434,8 +454,10 @@
 				PRODUCT_NAME = SimpleSelectionMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -490,13 +512,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -553,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
