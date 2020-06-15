@@ -31,11 +31,13 @@ SimpleSelectionMenu is available under the MIT license. See the LICENSE file for
 ## Usage
 
 // Initialize SelectionController with the parameters
+
 /**
  items: array of string,
  multipleSelection: if you want to select only single item, then pass 'false' and if you want to select multiple    items then pass 'true'
  optional screenTitle: String
  */
+ 
 let vc = SelectionController(items: ["First", "Second"], multipleSelection: true, screenTitle: "Select Option")
 
 'screenTitle' is optional
@@ -43,17 +45,17 @@ let vc = SelectionController(items: ["First", "Second"], multipleSelection: true
 // For multiple selection
 
 vc.multipleResult = { items in
-    
     for item in items {
         print(item)
     }
 }
 
 // For single selection
+
 vc.singleResult = { index, item in
-    
     print("Found: \(item) at index: \(index)")
 }
 
 let nvc = UINavigationController(rootViewController: vc)
+
 self.present(nvc, animated: true, completion: nil)
