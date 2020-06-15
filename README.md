@@ -34,17 +34,18 @@ SimpleSelectionMenu is available under the MIT license. See the LICENSE file for
 
 /**
  items: array of string,
+ 
  multipleSelection: if you want to select only single item, then pass 'false' and if you want to select multiple    items then pass 'true'
+ 
  optional screenTitle: String
  */
  
 let vc = SelectionController(items: ["First", "Second"], multipleSelection: true, screenTitle: "Select Option")
 
-'screenTitle' is optional
-
 // For multiple selection
 
 vc.multipleResult = { items in
+
     for item in items {
         print(item)
     }
@@ -53,6 +54,7 @@ vc.multipleResult = { items in
 // For single selection
 
 vc.singleResult = { index, item in
+
     print("Found: \(item) at index: \(index)")
 }
 
